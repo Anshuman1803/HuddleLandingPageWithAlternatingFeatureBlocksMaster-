@@ -1,0 +1,163 @@
+@media screen and (max-width: 850px) {
+
+    .home {
+        background-image: url(./images/bg-hero-mobile.svg);
+        background-color: hsl(192, 62%, 96%);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 110vh;
+     }
+     
+     .home .header {
+        padding: 10px;
+     }
+     
+     .home .header img {
+        width: 100px;
+     }
+     
+     .home .header button {
+        padding: 5px;
+        width: 160px;
+     }
+     
+     .home .HomeContent {
+        flex-direction: column;
+        gap: 2em;
+        padding-top: 50px;
+        height: 100vh;
+     }
+     
+     .home .HomeContent .Content {
+        width: 100%;
+        gap: 1.5em;
+        align-items: center;
+        padding-bottom: 10px;
+     }
+     
+     .home .HomeContent .Content h1 {
+        width: 100%;
+        margin: 0;
+        font-size: 25px;
+        text-align: center;
+     }
+     
+     .home .HomeContent .Content p {
+        width: 100%;
+        margin: 0;
+        font-size: 17px;
+        text-align: center;
+     }
+     
+     .home .HomeContent .Content button {
+        margin: 0;
+     }
+     
+     .home .HomeContent .Poster {
+        width: 100%;
+     }
+     .CardContainer {
+      margin-top: 3em;
+      height: 200vh;
+      gap: 3em;
+   }
+     .CardContainer .Card {
+      padding: 20px 0px;
+      width: 95%;
+      flex-direction: column-reverse;
+      height: 80%;
+      justify-content: center;
+      align-items: center;
+   }
+   .CardContainer .Card .info {
+      width: 100%;
+      text-align: center;
+      align-items: center;
+      height: 60%;
+   }
+   .CardContainer .Card .info p {
+      width: 100%;
+   }
+   
+   .CardContainer .Card .img {
+      width: 100%;
+      height: 40%;
+      background-position-x: 50%;
+   }
+   #Card-2 {
+      gap: 0em;
+      padding: 10px 0;
+      flex-direction: column;
+   }
+   #Card-2  .img{
+      width: 100%;
+      height: 40%;
+   }
+   #Card-2  .info{
+      width: 100%;
+   }
+   
+   #Card-2  .info p{
+      width: 95%;
+   }
+   #Card-3 .info p{
+      width: 93%;
+   }
+
+   #Card-3 .img{
+      height: 50%;
+      background-position-x: 50%;
+   }
+   .GetStarted{
+      padding: 25px 20px;
+   }
+   .GetStarted h2 {
+      font-size: 18px;
+   }
+   
+   .GetStarted button {
+      margin: 0 30px;
+      width: 250px;
+      padding: 1.3em 0;
+   }
+   
+   footer {
+     display: flex;
+     flex-direction: column;
+     height: 100vh;
+     gap: 2em;
+    padding: 10em 2em 5em 2em;
+   }
+   footer .Contact {
+
+      width: 100%;
+      padding: 10px;
+   }
+   footer .Contact .location {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+   }
+   
+   footer .Contact .location p {
+      width: 100%;
+   }
+   
+   footer .Links {
+      display: flex; 
+      width: 100%;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 10px;
+      gap: 1em;
+   }
+  
+footer .Social-CopyRight {
+   padding: 10px;
+   width: 100%;
+   gap: 3em;
+   justify-content: center;
+}
+
+   
+}

@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+
+/* font-family: 'Open Sans', sans-serif; //Body
+
+font-family: 'Poppins', sans-serif; //Headings
+ */
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+.home {
+   height: 100vh;
+   background-image: url(./images/bg-hero-desktop.svg);
+   background-color: hsl(192, 62%, 96%);
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+}
+
+.home .header {
+   padding: 1em 3em;
+   height: 10vh;
+}
+
+.home .header img {
+   margin-top: 10px;
+   width: 150px;
+   float: left;
+}
+
+.home .header button {
+   float: right;
+   font-size: 18px;
+   font-weight: 700;
+   width: 160px;
+   padding: 10px;
+   border-radius: 50px;
+   border: 0px;
+   font-family: 'Poppins', sans-serif;
+   background-color: hsla(0, 0%, 100%, 0.466);
+   box-shadow: 0px 5px 15px rgb(165 185 204);
+}
+
+.home .HomeContent {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   height: 90vh;
+   padding: 0px 20px;
+}
+
+.home .HomeContent .Content {
+   width: 50%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   gap: 2em;
+}
+
+.home .HomeContent .Content h1 {
+   font-size: 30px;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 600;
+   width: 60%;
+   margin: 0 60px;
+   line-height: 1.5em;
+}
+
+.home .HomeContent .Content p {
+   font-family: 'Open Sans', sans-serif;
+   font-size: 18px;
+   width: 80%;
+   margin: 0 60px;
+   font-weight: 400;
+}
+
+.home .HomeContent .Content button {
+   font-family: 'Open Sans', sans-serif;
+   background-color: hsl(322, 100%, 66%);
+   box-shadow: 0px 5px 15px rgb(165 185 204);
+   border: none;
+   color: white;
+   font-weight: 700;
+   margin: 0 60px;
+   width: 250px;
+   border-radius: 20px;
+   padding: 1em 0;
+
+}
+
+.home .HomeContent .Poster {
+   width: 50%;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.home .HomeContent .Poster img {
+   width: 100%;
+}
+
+button:hover {
+   cursor: pointer;
+   opacity: 0.8;
+}
+
+/* card Section Style Start */
+.CardContainer {
+   padding: 50px 0px;
+   height: 180vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 2em;
+}
+
+.CardContainer .Card {
+   padding: 50px;
+   height: 60%;
+   width: 80%;
+   display: flex;
+   flex-direction: row;
+   box-shadow: 0px 10px 15px rgb(197 197 197);
+}
+
+.CardContainer .Card .info {
+   width: 70%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   gap: 1em;
+}
+
+.CardContainer .Card .info h3 {
+   font-size: 30px;
+   font-family: 'Poppins', sans-serif;
+}
+
+.CardContainer .Card .info p {
+   font-family: 'Open Sans', sans-serif;
+   font-size: 18px;
+   color: hsl(208, 11%, 55%);
+   width: 65%;
+   line-height: 1.5em;
+}
+
+.CardContainer .Card .img {
+   width: 35%;
+
+}
+
+#Card-1 .img {
+   background-image: url(./images/illustration-grow-together.svg);
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+
+#Card-2 {
+   gap: 5em;
+}
+
+#Card-2 .img {
+   background-image: url(./images/illustration-flowing-conversation.svg);
+   background-repeat: no-repeat;
+   background-size: contain;
+   width: 40%;
+}
+
+#Card-2 .info {
+   width: 60%;
+}
+
+#Card-2 .info p {
+   width: 80%;
+}
+
+#Card-3 .img {
+   background: none;
+   background-image: url(./images/illustration-your-users.svg);
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+
+.GetStarted {
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   text-align: center;
+   background-color: white;
+   width: fit-content;
+   margin: 0 auto;
+   padding: 50px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 1.5em;
+   border-radius: 15px;
+   position: relative;
+   z-index: 15;
+   bottom: -70px;
+
+}
+
+.GetStarted h2 {
+   font-family: 'Poppins', sans-serif;
+   font-weight: 600;
+   font-size: 30px;
+}
+
+.GetStarted button {
+   font-family: 'Open Sans', sans-serif;
+   background-color: hsl(322, 100%, 66%);
+   box-shadow: 0px 5px 15px rgb(165 185 204);
+   border: none;
+   color: white;
+   font-weight: 700;
+   margin: 0 60px;
+   width: 300px;
+   border-radius: 40px;
+   padding: 1.8em 0;
+}
+
+footer {
+   height: 30vh;
+   background-color: hsl(192, 100%, 9%);
+   color: white;
+   display: grid;
+   grid-template-columns: 2fr 1fr 1fr;
+   column-gap: 1.5em;
+  padding: 10em 5em  5em 5em;
+   font-family: 'Open Sans', sans-serif;
+}
+
+footer .Contact {
+   display: flex;
+   flex-direction: column;
+   gap: 1.3em;
+   padding: 25px;
+}
+
+footer .Contact .location {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   gap: 2em;
+}
+
+footer .Contact .location p {
+   width: 65%;
+}
+
+footer .Contact .phone {
+   display: flex;
+   align-items: center;
+   gap: 2em;
+}
+
+footer .Contact .Email {
+   display: flex;
+   align-items: center;
+   gap: 2em;
+}
+
+footer .Contact .logo img {
+   width: 150px;
+   filter: invert(150%);
+}
+
+
+footer .Links {
+   padding: 10px;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   column-gap: 5em;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+
+footer .Links a {
+   text-decoration: none;
+   color: white;
+   font-weight: 300;
+   font-size: 15px;
+}
+
+footer .Links a:hover {
+   text-decoration: underline;
+   cursor: pointer;
+}
+
+footer .Social-CopyRight {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+}
+
+footer .Social-CopyRight .SocialSites {
+   height: 80%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 1em;
+
+}
+footer .Social-CopyRight .SocialSites i{
+   font-size: 15px;
+  border: 1px solid white;
+  padding: 15px;
+  border-radius: 50px;
+
+}
+footer .Social-CopyRight .SocialSites i:hover{
+ color: hsl(322, 100%, 66%);
+ border-color: hsl(322, 100%, 66%);
+ cursor: pointer;
+
+}
+
+footer .Social-CopyRight .CopyRight{
+   height: 20%;
+   font-size: 12px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
